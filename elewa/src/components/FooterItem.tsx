@@ -29,20 +29,18 @@ function FooterItem(){
         </div>
         <div>
           <h3>Brands</h3>
-          <ul>
             {/* Mappingto show each brand with its key  */}
             {data.brands.map((brand, index) => (
-              <li key={index}>{brand}</li>
+              <p key={index}>{brand}</p>
             ))}
-          </ul>
         </div>
         <div>
           <h3>Privacy</h3>
-          <ul>
+       
             {data.privacy.map((item, index) => (
-              <li key={index}>{item}</li>
+              <p key={index}>{item}</p>
             ))}
-          </ul>
+       
         </div>
       </div>
     )
