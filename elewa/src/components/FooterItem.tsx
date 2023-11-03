@@ -2,20 +2,19 @@ import React from 'react';
 import data from "../json/footer.json"
 
 // Defining datatypes for the footer data
-type data = {
-  
-    headquarters: string;
-    contact: {
-      phone: string;
-      email: string;
-    };
-    brands: string[];
-    privacy: string[];
+type FooterItemData = {
+  headquarters: string;
+  contact: {
+    phone: string;
+    email: string;
   };
+  brands: string[];
+  privacy: string[];
+};
 
 
 function FooterItem(){
-    return (
+    return ( 
         // Displaying data 
         <div>
         <div>
