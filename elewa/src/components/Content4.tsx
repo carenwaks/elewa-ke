@@ -7,7 +7,7 @@ type ContentProps = {
     img: string;
 };
 
-function OtherContent(props: ContentProps) {
+function Content4(props: ContentProps) {
     return (
         <div className="overview-content">
             <div className="overview-desc">
@@ -26,4 +26,4 @@ function OtherContent(props: ContentProps) {
         </div>
     )
 };
-export default OtherContent;
+export default Content4;

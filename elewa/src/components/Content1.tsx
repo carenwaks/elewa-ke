@@ -6,7 +6,7 @@ type ContentProps = {
     img: string;
 };
 
-function Content(props: ContentProps) {
+function Content1(props: ContentProps) {
     return (
         <div className="overview-content1">
             <div className="overview-img1">
@@ -23,4 +23,4 @@ function Content(props: ContentProps) {
         </div>
     )
 };
-export default Content;
+export default Content1;
