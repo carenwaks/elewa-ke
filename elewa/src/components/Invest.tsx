@@ -8,6 +8,7 @@ import Content5 from "./Content5";
 import exp from "constants";
 import Content6 from "./Content6";
 import Content7 from "./Content7";
+import Content8 from "./Content8";
 
 function Invest(){
     return (
@@ -39,6 +40,7 @@ function Invest(){
                 text="From time to time, we offer investment opportunities (private equity & debt) to out community of investors. Interested to take part when this opportunity arrives?"
                 img="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983082/elewa-group-website/Images/invest-now_ftxg4z.jpg"
             />
+            <Content8 />
             <Footer />
         </div>
     )
