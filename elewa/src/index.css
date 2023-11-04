@@ -186,3 +186,22 @@ code {
   border: #000000 solid 0.05px;
   border-radius: 15px;
 }
+/* We care styling */
+.care-section-1 {
+  padding: auto;
+}
+.care-section-1 h2 {
+  text-align: left;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.care-details {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.care-details p {
+  text-align: center;
+  font-size: 24px;
+}
