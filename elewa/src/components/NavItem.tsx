@@ -7,11 +7,11 @@ type NavItemData = {
 
 function NavItem(){
     return (
-        <ul>
-            {/* Mapping the json data and specify the data */}
+        <ul className="nav-sec">
+            {/* Mapping the json data and display the data */}
            {data.map((item: NavItemData) => (
           <div key={item.title}>
-            <li>{item.title}</li>
+            <p>{item.title}</p>
           </div>
         ))} 
             

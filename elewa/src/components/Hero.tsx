@@ -1,7 +1,6 @@
 import React from "react";
 // Defining the dataypes of the data used
 type HeroProps = {
-      img: string;
       text: string;
       title: string;
   };
@@ -9,11 +8,10 @@ type HeroProps = {
 function Hero(props: HeroProps){
     
     return (
-        <div >
-      <img alt='hero-image' src={props.img}/>
-
+        <div className="hero-sec">
+      {/* Hero section title and description */}
       <div className="hero-info">
-        <p>{props.text}</p>
+        <p >{props.text}</p>
         <h1>{props.title}</h1>
       </div>
     </div>

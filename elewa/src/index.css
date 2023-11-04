@@ -11,3 +11,160 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Logo styling */
+.logo{
+  margin-left:-19rem;
+  margin-top: 1rem;
+  margin-left:0.97rem;
+}
+/* Navigation links styling */
+.nav-sec{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  gap: 20px; 
+  background: transparent;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+/* Header styling */
+.header-sec{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  background-color: black;
+}
+
+/* Hero section styling */
+.hero-sec{
+  background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg');
+  background-size: cover;
+  width: 1366px;
+  height: 528px;
+ top: -20px;
+}
+.hero-info{
+  padding-top: 4rem;
+  padding-left: 6rem;  
+  width: 50%;
+}
+.hero-info h1{
+  font-family: 'DM Sans', sans-serif;
+  font-size:44px;
+  font-weight: 500;
+  color: white;
+}
+
+.hero-info p{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+  color: white;
+}
+
+/* Content cards styling */
+.overview-content1 {
+  background-color: black;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.overview-img {
+  background-color: black;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ov-img {
+  max-width: 75%;
+  background-color: black;
+  border-radius: 1.2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-sizing: border-box;
+}
+.overview-desc1 {
+  background-color: black;
+  margin-left: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+.overview-desc1 h4 {
+  font-size: 22.7px;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: white;
+}
+.overview-desc1 p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+
+/* Content 2 styling */
+.overview-content2 {
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Content3 styling */
+.overview-content3 {
+  background-color: white;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Content 5 styling */
+.overview-content5 {
+  display: block; 
+  align-items: center;
+  align-content: center;
+}
+.overview-content5 span p {
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 20px;
+  align-self: center;
+}
+
+/* Footer styling */
+.footer-sec {
+  padding: 48px 8px 0px 8px;
+  background-color: #000000;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.footer-item-sec {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: #ffffff;
+  background-color: #000000;
+ 
+  padding: 44px;
+  
+}
+.links {
+  display: block;
+}

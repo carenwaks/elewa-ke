@@ -5,7 +5,8 @@ import NavItem from "./NavItem";
 
 function Header(){
     return (
-        <div>
+        // header section with logo and navigation links 
+        <div className="header-sec">
         <Logo />
         <NavItem />
         </div>
