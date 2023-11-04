@@ -206,3 +206,29 @@ code {
   text-align: left;
   font-size: 24px;
 }
+
+/* Culture styling */
+.culture-sec {
+  padding: auto;
+  align-content: center;
+}
+.culture-sec h2 {
+  font-size: 44px;
+  text-align: left;
+}
+.culture-sec p {
+  font-size: 24px;
+  display: block;
+  max-width: 50%;
+}
+.culture-details {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  
+}
+.culture-slot {
+  padding: 10px;
+  text-align: center;
+  border: #000000 solid 0.005px;
+  
+}
