@@ -110,3 +110,14 @@ code {
   color: white;
 }
 
+/* Content 2 styling */
+.overview-content2 {
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+}
+
+
+
