@@ -35,3 +35,28 @@ code {
   padding-top: 2rem;
   background-color: transparent;
 }
+
+/* Hero section styling */
+.hero-sec{
+  background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg');
+  background-size: cover;
+  width: 1366px;
+  height: 528px;
+ top: -20px;
+}
+.hero-info{
+  padding-top: 4rem;
+  padding-left: 6rem;  
+}
+.hero-info p{
+  font-family: 'DM Sans', sans-serif;
+  font-size:44px;
+  font-weight: 500;
+  
+}
+
+.hero-info h1{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+}
