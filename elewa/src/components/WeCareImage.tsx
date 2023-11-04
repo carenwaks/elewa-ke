@@ -2,8 +2,8 @@ import React from "react";
 
 function WeCareImage(){
     return(
-        <div>
-            <div>
+        <div className="care-details">
+            <div >
             <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1680180166/elewa-group-website/Icons/PNG/Holistic_118_ylipr0.png"/>
             <p>We go beyond a simple patch-up but develop lasting solutions through holistic design.</p>
             </div>

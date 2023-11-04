@@ -188,7 +188,7 @@ code {
 }
 /* We care styling */
 .care-section-1 {
-  padding: auto;
+  margin: auto;
 }
 .care-section-1 h2 {
   text-align: left;
@@ -200,8 +200,9 @@ code {
   display: flex;
   align-content: center;
   justify-content: space-between;
+  margin: 10px;
 }
 .care-details p {
-  text-align: center;
+  text-align: left;
   font-size: 24px;
 }
