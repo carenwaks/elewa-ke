@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import WeCare from "./WeCare";
 import WeCareImage from "./WeCareImage";
 import LearnMore from "./LearnMore";
+import Culture from "./Culture";
 
 function About(){
     return(
@@ -16,6 +17,7 @@ function About(){
             />
             <WeCare />
             <WeCareImage />
+            <Culture />
             <LearnMore />
             <Footer />
         </div>

@@ -35,3 +35,4 @@ function Culture(){
         </div>
     )
 }
+export default Culture;
