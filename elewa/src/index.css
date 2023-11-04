@@ -168,3 +168,21 @@ code {
 .links {
   display: block;
 }
+
+/* Key Figures styling */
+.figures-sec p {
+  text-align: center;
+  font-size: 30px;
+}
+.figures-grid-sec {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding: 20px;
+  margin-top: 30px;
+}
+.figure-slot {
+  padding: 10px;
+  text-align: center;
+  border: #000000 solid 0.05px;
+  border-radius: 15px;
+}

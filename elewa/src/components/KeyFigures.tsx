@@ -9,16 +9,20 @@ type FigureData = {
 function KeyFigures(){
     
     return (
-        <div>
+        <div className="figures-sec">
+            <p>Key Figures</p>
+        <div className="figures-grid-sec">
+            
             {/* Mapping the json data and display the data */}
            {data.map((item: FigureData) => (
-          <div >
+          <div className="figure-slot">
             <p>{item.figure}</p>
             <p>{item.description}</p>
           </div>
         ))} 
             
         
+    </div>
     </div>
     )
 };
