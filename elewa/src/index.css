@@ -16,4 +16,14 @@ code {
   margin-left:-19rem;
   margin-top: 1rem;
   margin-left:0.97rem;
- }
+}
+/* Navigation links styling */
+.nav-sec{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  gap: 20px; 
+  background: transparent;
+  margin-bottom: 2rem;
+}
