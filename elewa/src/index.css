@@ -119,5 +119,12 @@ code {
   padding: 5%;
 }
 
-
+/* Content3 styling */
+.overview-content3 {
+  background-color: white;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+}
 
