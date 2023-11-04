@@ -27,3 +27,11 @@ code {
   background: transparent;
   margin-bottom: 2rem;
 }
+
+/* Header styling */
+.header-sec{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  background-color: transparent;
+}
