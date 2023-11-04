@@ -12,7 +12,7 @@ function Content4(props: ContentProps) {
         <div className="overview-content1">
             <div className="overview-desc1">
                 {/* Display the title and text of the prop */}
-                <h2 className="title">{props.title}</h2>
+                <h4 className="title">{props.title}</h4>
                 <p className="description">{props.text}</p>      
             </div>
             <div className="overview-img1">
