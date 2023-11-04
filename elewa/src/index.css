@@ -47,16 +47,18 @@ code {
 .hero-info{
   padding-top: 4rem;
   padding-left: 6rem;  
+  width: 50%;
 }
-.hero-info p{
+.hero-info h1{
   font-family: 'DM Sans', sans-serif;
   font-size:44px;
   font-weight: 500;
-  
+  color: white;
 }
 
-.hero-info h1{
+.hero-info p{
   font-family: 'DM Sans', sans-serif;
   font-size: 21px;
   font-weight: 200;
+  color: white;
 }
