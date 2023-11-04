@@ -9,6 +9,7 @@ import exp from "constants";
 import Content6 from "./Content6";
 import Content7 from "./Content7";
 import Content8 from "./Content8";
+import KeyFigures from "./KeyFigures";
 
 function Invest(){
     return (
@@ -23,6 +24,7 @@ function Invest(){
                 text={`The global South is rapidly catching up with the "developed" world. It's time for you to get to know the rapid development, innovation and drive going on in this part of the world (East-Africa, South Asia and beyond).`}
                 img="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png"
             />
+            <KeyFigures />
             <Content3 
                 title="Elewa NV, a multi-stakeholder cooperation"
                 text="At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities. Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
