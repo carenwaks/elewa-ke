@@ -3,6 +3,7 @@ import data from "../json/navItems.json"
 // Defining the datatype for the json data
 type NavItemData = {
     title: string;
+    link: string;
 };
 
 function NavItem(){
@@ -11,7 +12,7 @@ function NavItem(){
             {/* Mapping the json data and display the data */}
            {data.map((item: NavItemData) => (
           <div key={item.title}>
-            <p>{item.title}</p>
+            <a href={item.link}><p>{item.title}</p></a>
           </div>
         ))} 
             
