@@ -11,3 +11,4 @@ function WeCare(){
         </div>
     )
 }
+export default WeCare;
