@@ -9,13 +9,13 @@ type ContentProps = {
 
 function Content4(props: ContentProps) {
     return (
-        <div className="overview-content">
-            <div className="overview-desc">
+        <div className="overview-content1">
+            <div className="overview-desc1">
                 {/* Display the title and text of the prop */}
                 <h2 className="title">{props.title}</h2>
                 <p className="description">{props.text}</p>      
             </div>
-            <div className="overview-img">
+            <div className="overview-img1">
                 {/* Display the prop image */}
                 <img
                 className="ov-img "
