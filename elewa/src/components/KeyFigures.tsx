@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../json/keyFigures.json"
 // Defining the dataypes of the data used
 type FigureData = {
       figure: string;
@@ -21,4 +22,4 @@ function KeyFigures(){
     </div>
     )
 };
-export default Hero;
+export default KeyFigures;
