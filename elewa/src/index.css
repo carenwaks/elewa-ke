@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -42,31 +45,47 @@ code {
 }
 
 /* Hero section styling */
-.hero-sec{
-  background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg');
-  background-size: cover;
-  width: 1366px;
-  height: 528px;
- top: -20px;
+.hero-sec img {
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-mid{
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.hero-mid h1{
+  padding-top: 4rem ;
 }
 .hero-info{
-  padding-top: 4rem;
-  padding-left: 6rem;  
-  width: 50%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-left: 8rem;
 }
+
 .hero-info h1{
-  font-family: 'DM Sans', sans-serif;
-  font-size:54px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 300;
+  background: transparent;
   color: white;
+  font-family:'Poppins',sans-serif;
+  max-width: 75%;
 }
 
 .hero-info p{
-  font-family: 'DM Sans', sans-serif;
-  font-size: 21px;
-  font-weight: 200;
+  font-family: 'DM Sans',sans-serif;
+  font-size: 1.3rem;
   color: white;
+  padding-bottom: 0.1rem;
+  font-weight: 200;
 }
+
+
 
 /* Content cards styling */
 .overview-content1 {

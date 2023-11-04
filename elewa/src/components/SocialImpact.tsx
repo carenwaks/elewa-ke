@@ -15,6 +15,7 @@ function SocialImpact(){
             <Hero
                 text='Scaling impact. Beyond the norm'
                 title="Human and Environmental Impact through Social Enterprise"
+                image="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg"
             />
             <Content1 
                 img= "https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg"
