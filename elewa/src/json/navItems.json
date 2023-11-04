@@ -1,11 +1,14 @@
 [
     {
-        "title":"About"
+        "title":"About",
+        "link":"/about"
     },
     {
-        "title":"Social Impact"
+        "title":"Social Impact",
+        "link":"/social-impact"
     },
     {
-        "title":"Invest"
+        "title":"Invest",
+        "link":"/invest"
     }
 ]
