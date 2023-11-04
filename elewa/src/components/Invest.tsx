@@ -10,11 +10,11 @@ import exp from "constants";
 function Invest(){
     return (
         <div>
+            <Header />
             <Hero 
               text='Trade, not aid'
               title="Southern innovations addressing global problems"  
             />
-            <Header />
             <Content1 
                 title="How we see it differently"
                 text={`The global South is rapidly catching up with the "developed" world. It's time for you to get to know the rapid development, innovation and drive going on in this part of the world (East-Africa, South Asia and beyond).`}
