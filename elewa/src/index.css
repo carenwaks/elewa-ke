@@ -16,10 +16,10 @@ code {
 }
 /* Logo styling */
 .logo{
-  margin-left:-19rem;
+  margin-left:4.6rem;
   margin-top: 1rem;
-  margin-left:0.97rem;
 }
+
 /* Navigation links styling */
 .nav-sec{
   display: flex;
@@ -31,6 +31,7 @@ code {
   margin-bottom: 2rem;
   color: #ffffff;
   cursor: pointer;
+  
 }
 .nav-sec p {
   color: #ffffff;
@@ -39,8 +40,9 @@ code {
 /* Header styling */
 .header-sec{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 2rem;
+  padding-right: 0.44rem;
   background-color: black;
 }
 
