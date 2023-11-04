@@ -142,10 +142,10 @@ code {
   align-content: center;
 }
 .overview-content5 span p {
-  font-size: 24px;
+  font-size: 44px;
   font-weight: 200;
   padding-left: 20px;
-  align-self: center;
+  text-align: center;
 }
 
 /* Footer styling */
@@ -167,4 +167,68 @@ code {
 }
 .links {
   display: block;
+}
+
+/* Key Figures styling */
+.figures-sec p {
+  text-align: center;
+  font-size: 30px;
+}
+.figures-grid-sec {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  padding: 20px;
+  margin-top: 30px;
+}
+.figure-slot {
+  padding: 10px;
+  text-align: center;
+  border: #000000 solid 0.05px;
+  border-radius: 15px;
+}
+/* We care styling */
+.care-section-1 {
+  margin: auto;
+}
+.care-section-1 h2 {
+  text-align: left;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.care-details {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.care-details p {
+  text-align: left;
+  font-size: 24px;
+}
+
+/* Culture styling */
+.culture-sec {
+  padding: auto;
+  align-content: center;
+}
+.culture-sec h2 {
+  font-size: 44px;
+  text-align: left;
+}
+.culture-sec p {
+  font-size: 24px;
+  display: block;
+  max-width: 50%;
+}
+.culture-details {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  
+}
+.culture-slot {
+  padding: 10px;
+  text-align: center;
+  border: #000000 solid 0.005px;
+  
 }

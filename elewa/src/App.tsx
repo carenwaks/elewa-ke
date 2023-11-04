@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import SocialImpact from './components/SocialImpact';
+import Invest from './components/Invest';
+import About from './components/About';
 
 
 
 function App() {
   return (
     <div className="App">
-    <SocialImpact />
+    {/* <Invest /> */}
+    <About />
     </div>
   );
 }
