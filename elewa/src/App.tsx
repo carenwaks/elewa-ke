@@ -14,7 +14,7 @@ function App() {
         <Routes>
             <Route path="/" element={<About />} />
             <Route path="/invest" element={<Invest />} />
-            <Route path="/social-impact" element={<SocialImpact />}
+            <Route path="/social-impact" element={<SocialImpact />}/>
         </Routes>
     </div>
   );
