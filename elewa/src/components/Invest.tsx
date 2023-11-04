@@ -7,6 +7,7 @@ import Content3 from "./Content3";
 import Content5 from "./Content5";
 import exp from "constants";
 import Content6 from "./Content6";
+import Content7 from "./Content7";
 
 function Invest(){
     return (
@@ -33,7 +34,11 @@ function Invest(){
                 Through partnerships with creative community, the Elewa Hub will organize vibrant activites that bring talents from different fields (tech, business, art, fashion) together to nurture continuous innovation."
                 img="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg"
              />
-
+            <Content7 
+                title="Investing in Elewa NV"
+                text="From time to time, we offer investment opportunities (private equity & debt) to out community of investors. Interested to take part when this opportunity arrives?"
+                img="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983082/elewa-group-website/Images/invest-now_ftxg4z.jpg"
+            />
             <Footer />
         </div>
     )

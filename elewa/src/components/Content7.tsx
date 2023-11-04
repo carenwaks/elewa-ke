@@ -8,15 +8,15 @@ type ContentProps = {
 
 function Content7(props: ContentProps) {
     return (
-        <div className="overview-content1">
-            <div className="overview-img1">
+        <div className="overview-content2">
+            <div className="overview-img2">
                 <img
                 className="ov-img "
                 src={props.img}
                 alt="content image"
                 />
             </div>
-            <div className="overview-desc1">
+            <div className="overview-desc2">
                 <h4>{props.title}</h4>
                 <p >{props.text}</p>
             </div>
