@@ -6,6 +6,7 @@ import Content1 from "./Content1";
 import Content3 from "./Content3";
 import Content5 from "./Content5";
 import exp from "constants";
+import Content6 from "./Content6";
 
 function Invest(){
     return (
@@ -25,6 +26,14 @@ function Invest(){
                 text="At the heart of Elewa lies the structure Elewa NV. Based in Brussels, Belgium, Elewa NV is a private holding company which controls the assets of all Elewa activities. Elewa NV is owned and controlled by Elewa's founder, a small community of investors which share in the vision of Elewa and Elewa employees based throughout the activities of the group."
                 img="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690303/elewa-group-website/Images/IMG_6523_vabpyo.png"
             />
+            <Content6
+                title="The Elewa Creative Hub"
+                text="Coming soon; The Elewa Creative Hub Lies at the heart of our organization. A two-acre property at the center of Nairobi's creative district, the hub connects all Elewa's Activities under a single banner.
+
+                Through partnerships with creative community, the Elewa Hub will organize vibrant activites that bring talents from different fields (tech, business, art, fashion) together to nurture continuous innovation."
+                img="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg"
+             />
+
             <Footer />
         </div>
     )

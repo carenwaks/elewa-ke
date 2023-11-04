@@ -9,13 +9,13 @@ type ContentProps = {
 
 function Content6(props: ContentProps) {
     return (
-        <div className="overview-content6">
+        <div className="overview-content2">
             <div className="overview-desc6">
                 {/* Display the title and text of the prop */}
                 <h2 className="title">{props.title}</h2>
                 <p className="description">{props.text}</p>      
             </div>
-            <div className="overview-img6">
+            <div className="overview-img2">
                 {/* Display the prop image */}
                 <img
                 className="ov-img "
@@ -26,4 +26,4 @@ function Content6(props: ContentProps) {
         </div>
     )
 };
-export default Content2;
+export default Content6;
