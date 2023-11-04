@@ -2,9 +2,9 @@ import React from "react";
 
 function Content5(){
     return (
-        <div>
-            <span>Some of our impact projects</span>
-            <span>Become part of our mission and join elewa.</span>
+        <div className="overview-content5">
+            <div><span><p>Some of our impact projects</p></span></div>
+            <div><span><p>Become part of our mission and join elewa</p>.</span></div>
         </div>
     )
 }
