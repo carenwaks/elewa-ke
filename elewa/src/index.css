@@ -133,6 +133,8 @@ code {
 .footer-sec {
   padding: 48px 8px 0px 8px;
   background-color: #000000;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 .footer-item-sec {
   display: flex;
@@ -140,7 +142,7 @@ code {
   justify-content: space-between;
   color: #ffffff;
   background-color: #000000;
-  border-radius: 1.2rem;
+ 
   padding: 44px;
   
 }
