@@ -3,6 +3,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Invest from './components/Invest';
 import About from './components/About';
+import SocialImpact from './components/SocialImpact';
 
 
 
@@ -13,7 +14,7 @@ function App() {
         <Routes>
             <Route path="/" element={<About />} />
             <Route path="/invest" element={<Invest />} />
-            
+            <Route path="/social-impact" element={<SocialImpact />}
         </Routes>
     </div>
   );
