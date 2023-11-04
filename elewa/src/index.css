@@ -129,3 +129,21 @@ code {
   padding: 5%;
 }
 
+/* Footer styling */
+.footer-sec {
+  padding: 48px 8px 0px 8px;
+  background-color: #000000;
+}
+.footer-item-sec {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 1.2rem;
+  padding: 44px;
+  
+}
+.links {
+  display: block;
+}
