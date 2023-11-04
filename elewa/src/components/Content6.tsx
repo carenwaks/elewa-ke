@@ -9,7 +9,7 @@ type ContentProps = {
 
 function Content6(props: ContentProps) {
     return (
-        <div className="overview-content2">
+        <div className="overview-content3">
             <div className="overview-desc6">
                 {/* Display the title and text of the prop */}
                 <h2 className="title">{props.title}</h2>
